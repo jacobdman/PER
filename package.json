@@ -2,12 +2,13 @@
   "name": "basic-react-app",
   "version": "0.2.0",
   "private": false,
+  "main": "index.js",
   "dependencies": {
     "@material-ui/core": "^3.9.2",
     "@material-ui/icons": "^3.0.2",
     "history": "^4.9.0",
     "react": "^16.8.1",
-    "react-dom": "^16.8.1",
+    "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.3"
   },
