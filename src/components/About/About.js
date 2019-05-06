@@ -18,9 +18,6 @@ const styles = theme => ({
   content: {
     ...theme.content,
   },
-  member: {
-    // font-size: 20px;
-  },
 });
 
 const Home = ({ classes }) => {
@@ -332,14 +329,6 @@ const Home = ({ classes }) => {
           </p>
         </div>
         <div classname={classes.divider} />
-        <div className={classes.member}>
-          <h2>
-            Michael and Cynthia Simpson—8 Habits Consultants, Content Providers
-            and Presenters.
-          </h2>
-          <div class="Divider" />
-          <h2>Cindy Hatton—Recruitment Specialist, Camp Facilitator.</h2>
-        </div>
         <p className={classes.copyright}>© 2018 Prosperity Education Route.</p>
       </div>
     </div>

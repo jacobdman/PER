@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
+import BottomImg from '../../assets/PER_Background_Bottom.png';
 
 const styles = theme => ({
   root: {
@@ -17,6 +18,9 @@ const styles = theme => ({
   },
   content: {
     ...theme.content,
+  },
+  bottomImg: {
+    ...theme.bottomImg,
   },
 });
 
@@ -89,6 +93,7 @@ const Home = ({ classes }) => {
           </p>
         </div>
       </div>
+      {/* <img className={classes.bottomImg} src={BottomImg} alt="Logo" /> */}
     </div>
   );
 };

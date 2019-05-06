@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
-import Logo from '../../assets/images/PER_Logo.png';
+import Background from '../../assets/PER_Header.png';
 
 const styles = theme => ({
   root: {
-    height: '300px',
+    height: '400px',
     padding: '5px',
     boxSizing: 'border-box',
     display: 'flex',
@@ -23,7 +23,7 @@ const styles = theme => ({
 const Header = ({ classes }) => {
   return (
     <div className={classes.root}>
-      <img className={classes.logo} src={Logo} alt="Logo" />
+      <img className={classes.logo} src={Background} alt="Logo" />
     </div>
   );
 };

@@ -56,6 +56,11 @@ const theme = createMuiTheme({
     boxSizing: 'border-box',
     fontSize: 18,
   },
+  bottomImg: {
+    position: 'absolute',
+    bottom: '-120%',
+    width: '100vw',
+  },
 });
 
 class StudioTheme extends Component {

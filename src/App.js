@@ -17,6 +17,15 @@ const styles = theme => ({
     justifyContent: 'space-around',
     alignItems: 'center',
   },
+  '@global': {
+    '*::-webkit-scrollbar': {
+      width: '0.4em',
+    },
+    '*::-webkit-scrollbar-thumb': {
+      backgroundColor: 'rgb(255, 255, 255, 0.3)',
+      borderRadius: 5,
+    },
+  },
 });
 
 function App({ classes }) {

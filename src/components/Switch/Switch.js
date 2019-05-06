@@ -6,7 +6,7 @@ const styles = theme => ({
   switch: {
     margin: '20px auto',
     height: '75px',
-    width: '50%',
+    width: '75%',
     background: 'rgb(255, 255, 255, 0.5)',
     borderRadius: '20px',
     alignItems: 'center',
@@ -34,14 +34,20 @@ const Switch = ({ classes }) => {
       <a className={classes.link} href="/">
         Introduction
       </a>
-      <a className={classes.link} href="about">
+      <a className={classes.link} href="/about">
         About Us
       </a>
-      <a className={classes.link} href="events">
+      <a className={classes.link} href="/events">
         Events
       </a>
-      <a className={classes.link} href="contact">
+      <a className={classes.link} href="/contact">
         Contact
+      </a>
+      <a className={classes.link} href="/pdf/leadership_camp">
+        Leadership Camp
+      </a>
+      <a className={classes.link} href="/pdf/debate_camp">
+        Debate Camp
       </a>
     </div>
   );
