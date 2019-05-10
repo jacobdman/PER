@@ -39,7 +39,7 @@ const Home = ({ classes }) => {
             success. PER’s dedicated trainers and original content transform
             lives, by preparing students to successfully study abroad, to be
             trailblazers in their careers, and by helping them meet the needs of
-            an ever-evolving global community. PER’s Trainers have a commitment
+            an ever-evolving global community. PER’s trainers have a commitment
             to values and people and are passionate about teaching the leaders
             of tomorrow. PER delivers life-transforming and motivating
             principles that will give students and families a solid foundation
@@ -54,8 +54,8 @@ const Home = ({ classes }) => {
             educators in the following topic areas:
           </p>
           <p>
-            The 8 Habits of Highly Effective People/Families/Teens: Covey’s
-            world-famous and proven skills for a happy and successful life.
+            The Prosperous Living Series: 12 Patterns for a Happy Life. Proven
+            skills for a happy and successful life.
           </p>
           <p>
             Successful Families, Positive Relationships: Parenting skills, and
@@ -80,7 +80,7 @@ const Home = ({ classes }) => {
           </p>
           <p>
             Generational Family Traditions: Practical courses in manners,
-            curtesy, and polite behaviors that are expected of international
+            courtesy, and polite behaviors that are expected of international
             professional and cultural elites.
           </p>
           <p>
@@ -88,6 +88,7 @@ const Home = ({ classes }) => {
             and presentation skills for educational and professional
             negotiations/debates and public speaking.
           </p>
+
           <p className={classes.copyright}>
             © 2018 Prosperity Education Route.
           </p>
