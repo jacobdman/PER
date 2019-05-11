@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
+import { Link } from 'react-router-dom';
 
 const styles = theme => ({
   switch: {
@@ -31,27 +32,27 @@ const styles = theme => ({
 const Switch = ({ classes }) => {
   return (
     <div className={classes.switch}>
-      <a className={classes.link} href="/">
+      <Link className={classes.link} to="/">
         Introduction
-      </a>
-      <a className={classes.link} href="/about">
+      </Link>
+      <Link className={classes.link} to="/about">
         About Us
-      </a>
-      <a className={classes.link} href="/events">
+      </Link>
+      <Link className={classes.link} to="/events">
         Events
-      </a>
-      <a className={classes.link} href="/contact">
+      </Link>
+      <Link className={classes.link} to="/contact">
         Contact
-      </a>
-      <a className={classes.link} href="/pdf/the_12_patterns">
+      </Link>
+      <Link className={classes.link} to="/pdf/the_12_patterns">
         The 12 Patterns
-      </a>
-      <a className={classes.link} href="/pdf/leadership_camp">
+      </Link>
+      <Link className={classes.link} to="/pdf/leadership_camp">
         Leadership Camp
-      </a>
-      <a className={classes.link} href="/pdf/debate_camp">
+      </Link>
+      <Link className={classes.link} to="/pdf/debate_camp">
         Debate Camp
-      </a>
+      </Link>
     </div>
   );
 };
