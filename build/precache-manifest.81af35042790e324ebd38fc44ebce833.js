@@ -12,31 +12,31 @@ self.__precacheManifest = [
     "url": "/static/media/debate_camp.f22f011e.pdf"
   },
   {
-    "revision": "9213f6c317dd22a709f78a886f0a262d",
-    "url": "/static/media/PER_Header.9213f6c3.png"
+    "revision": "a2e9eb3f495815cdc967b727af96aba8",
+    "url": "/static/media/PER_Logo_v2.a2e9eb3f.png"
   },
   {
-    "revision": "1bdab6a76d58163283597ed608d4f3a7",
-    "url": "/static/media/PER_Background_Bottom.1bdab6a7.png"
+    "revision": "9213f6c317dd22a709f78a886f0a262d",
+    "url": "/static/media/PER_Header.9213f6c3.png"
   },
   {
     "revision": "229c360febb4351a89df",
     "url": "/static/js/runtime~main.229c360f.js"
   },
   {
-    "revision": "c61d181f6ac0122b3cd3",
-    "url": "/static/js/main.c61d181f.chunk.js"
+    "revision": "6cd44b304bfffd50dde6",
+    "url": "/static/js/main.6cd44b30.chunk.js"
   },
   {
-    "revision": "8ecc700a77be4939a9cc",
-    "url": "/static/js/1.8ecc700a.chunk.js"
+    "revision": "dc93858c307f6e46ceb8",
+    "url": "/static/js/1.dc93858c.chunk.js"
   },
   {
-    "revision": "c61d181f6ac0122b3cd3",
-    "url": "/static/css/main.bff64cf4.chunk.css"
+    "revision": "6cd44b304bfffd50dde6",
+    "url": "/static/css/main.9250faae.chunk.css"
   },
   {
-    "revision": "4067b7117bd7f9d53330a65c6fde5ed3",
+    "revision": "5354e0c49e80ae03962444b9567b12f1",
     "url": "/index.html"
   }
 ];

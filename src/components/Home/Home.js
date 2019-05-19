@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
-import BottomImg from '../../assets/PER_Background_Bottom.png';
+import { updateHeight } from '../../PERTheme';
 
 const styles = theme => ({
   root: {
@@ -24,9 +24,22 @@ const styles = theme => ({
   },
 });
 
-const Home = ({ classes }) => {
+const Home = props => {
+  const { classes } = props;
+  const refCallback = element => {
+    if (element) {
+      console.log(element.getBoundingClientRect());
+      updateHeight(element.getBoundingClientRect().height);
+    }
+  };
+  // const root = React.createRef();
+
+  // useEffect(() => {
+  //   console.log(root.getBoundingClientRect());
+  //   updateHeight(root.current.clientHeight);
+  // }, [root]);
   return (
-    <div className={classes.root}>
+    <div className={classes.root} ref={refCallback}>
       <div className={classes.paper}>
         <div className={classes.content}>
           <h1>Introduction</h1>
@@ -88,13 +101,11 @@ const Home = ({ classes }) => {
             and presentation skills for educational and professional
             negotiations/debates and public speaking.
           </p>
-
           <p className={classes.copyright}>
             © 2018 Prosperity Education Route.
           </p>
         </div>
       </div>
-      {/* <img className={classes.bottomImg} src={BottomImg} alt="Logo" /> */}
     </div>
   );
 };
